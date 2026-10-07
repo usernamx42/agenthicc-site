@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-beat]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-beat]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));document.getElementById('empty-title').textContent=button.dataset.beat+' assessments are coming.';}));
